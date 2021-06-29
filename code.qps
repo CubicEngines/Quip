@@ -1,0 +1,12 @@
+get sound
+get random
+
+// test file
+
+on tick {
+    log();
+    log('This is cool!');
+
+    var num = random.random_int(1, 2);
+    log(num);
+}
